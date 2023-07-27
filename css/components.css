@@ -19,3 +19,19 @@
 .text-center {
     text-align: center;
 }
+
+.project-card {
+    border-radius: 15px;
+    background: linear-gradient(to left ,rgb(82, 5, 189), rgb(111, 71, 167));
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+
+    display: grid;
+    grid-row: 1;
+    grid-template-columns: 50% 50%;
+}
+
+.project-card > div >img {
+    width: 100%;
+}

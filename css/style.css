@@ -7,6 +7,9 @@
 
 body {
     background-color: rgb(175,175,175);
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
 }
 
 a {
@@ -28,11 +31,11 @@ button {
     height: 100%;
 }
 
-.container-presentation {
-    display: grid;
-    grid-column: 1fr;
-    grid-template-rows: repeat(1fr, 2);
-    grid-gap: 1em;
+
+
+.welcome {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .navigation {
@@ -44,12 +47,31 @@ button {
     align-items: center;
 }
 
-.navigation > button {
-    background-color: rgb(120, 120, 120) !important;
+.navigation > a {
+    width: 20%;    
+    height: 30%;
+    text-decoration: none;
+}
+
+.navigation > a > button {
+    background-color: rgb(120, 120, 120);
     color: white;
 }
 
-.navigation > a {    
-    width: 20%;    
-    height: 30%;
+.navigation > a > button:hover {
+    cursor: pointer;
+}
+
+.navigation > a > button:active {
+    background-color: rgb(200, 200, 200);
+}
+
+
+.presentation {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#projects {
+    margin-top: 20%;
 }

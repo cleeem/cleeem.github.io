@@ -1,0 +1,25 @@
+.container-welcome {
+    margin-top: 20px;
+    display: grid;
+    grid-column: 1fr;
+    grid-template-rows: repeat(1fr, 2);
+    grid-gap: 1em;
+}
+
+.container-presentation {
+    margin-top: 10%;
+    display: grid;
+    grid-row: 1;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.container-presentation > div > img {
+    border-radius: 50%;
+    width: 50%;
+}
+
+.container-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
