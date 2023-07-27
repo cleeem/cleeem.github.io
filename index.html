@@ -2,168 +2,39 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/components.css">
     <title>Portfolio</title>
 </head>
 <body>
 
-    <div class="titre">
-        Bonjour, voici les projets que j'ai pu faire que ce soit 
-        <br>
-        dans mon temps libre ou pour mes études
+    <div class="container-presentation">
+
+        <div class="text-center center">
+            Bienvenue sur mon Portfolio
+            <br>    
+            Vous pourrez trouver ici mes projets les plus importants
+        </div>
+        
+        <div class="navigation">
+            <p>Où aller?</p>
+            
+            <a href="">
+                <button>1</button>
+            </a>
+
+            <a href="">
+                <button>2</button>
+            </a>
+
+            <a href="">
+                <button>3</button>
+            </a>
+
+
+        </div>
+        
     </div>
-    <br><br>
-    <nav class="centre">
-        <span class="nav-titre nav-item">Où aller?</span>
-        
-        <a class="nav-item" href="#presentation">
-            <button class="nav-bouton">
-                Présentation
-            </button>
-        </a>
-        <a class="nav-item" href="#splatnet">
-            <button class="nav-bouton">
-                Projet Splatnet
-            </button>
-        </a>
-        <a class="nav-item" href="#quilles">
-            <button class="nav-bouton" >
-                Projet Quilles
-            </button>
-        </a>
-    </nav>
-    <br><br><br>
-
-    <section id="presentation">
-
-    <br><br><br><br>
-        
-        <div class="texte-presentation centre">
-            Bonjour, je suis Clément un étduiant en informatique à l'IUT de Rodez.
-            <br>
-            Coder est une de mes passions les plus grandes, 
-            cela va bientôt faire 5 ans que j'ai commencé a coder 
-            et depuis je cherche de nouveaux défis et projets.
-            <br>
-            (vous pourrez en trouver une partie sur ce site)
-            <br><br>
-            Dans mon temps libre, je code majoritairement en python 
-            mais pour les projets de l'IUT je pratique également JAVA et JavaScript.
-            <br><br>
-            Mes deux autres grandes passions sont les Quilles de Huit
-            et la license de jeux Splatoon, vous verez donc bon nombre 
-            de projets en rapport avec cela.  
-
-        </div>
-        <div class="image-presentation centre">
-            <img src="images/avatar_mini.png" id="avatar" alt="">
-        </div>
-    </section>
-
-    <br><br><br><br>
-
-    <br><br><br>
-
-    <section id="splatnet">
-    
-    <br><br><br><br>
-
-    <!-- Splatnet pc -->
-        <div class="grid-container-gauche">
-            <div class="cellule-presentation centre gauche">
-                <h1 class="titre">Splatnet pour PC :</h1> 
-                <br><br>
-                <p>
-                    Une application pour PC ecrite en python en utilisant customTkinter pour l'affichage et s3s pour la connexion au compte Nintendo. 
-                    <br><br>
-                    Elle permet de récupérer ses données de l'application Nintendo Switch Online sur son PC 
-                </p>
-                <br><br><br>
-
-                <a href="https://github.com/cleeem/pc_version" target="_blank">
-                    <button class="bouton">
-                        Lien vers le repo Github
-                    </button>
-                </a>
-                
-            </div>
-
-            <!-- espace entre les elements -->
-            <div></div> 
-            <div class="cellule-images">
-                <img src="images/splatnet_pc.png" alt="">
-                
-            </div>
-
-            <br><br><br>
-        </div>
-    </section>
-    <br><br><br>
-    
-    <section id="quilles">
-
-    <br><br><br><br>    
-
-    <!-- application quilles -->
-        <div class="grid-container-droite">
-            <div class="cellule-images">
-                <img src="images/quilles.png" alt="">
-                
-            </div>
-            <!-- espace entre les elements -->
-            <div></div> 
-            <div class="cellule-presentation centre droite">
-                <h1 class="titre">Quilles de Huit</h1> 
-                <br><br>
-                <p>
-                    Une application mobile écrite en python en utilisant customTkinter pour l'affichage.
-                    <br><br>
-                    Elle permet de compter le score d'une partie et peut accueillir jusqu'à 5 joueurs. On peut également sauvegarder les précédents résultats
-                </p>
-                <br><br><br>
-
-                <a href="https://github.com/cleeem/projet-quilles" target="_blank">
-                    <button class="bouton">
-                        Lien vers le repo Github
-                    </button>
-                </a>
-                
-            </div>
-
-            <br><br><br>
-        </div>
-    </section>
-    <br><br><br><br><br>
-
-    <div class="footer" id="footer">
-        <div class="footer-1"></div>
-        <div class="footer-2 contact">
-            <div class="contact-1"> &nbsp;&nbsp; Me Contacter</div>
-
-            <div class="contact-2-1">
-                <a href="https://discord.gg/GZWYF4K72Y" target="_blank">
-                    <img src="images/Discord.svg" alt="Discord" class="contact-images">
-                </a>
-            </div>
-            <div class="contact-3-1">
-                <a href="https://twitter.com/clem_spl" target="_blank">
-                    <img src="images/Twitter.svg"  alt="Twitter" class="contact-images">
-                </a>
-            </div>
-            <div class="contact-4-1">
-                <a href="https://github.com/cleeem" target="_blank">
-                    <img src="images/GitHub.svg" alt="Gtihub" class="contact-images">
-                </a>
-            </div>
-
-            <div class="contact-2-2">clem#1777</div>
-            <div class="contact-3-2">@clem_spl</div>
-            <div class="contact-4-2">cleeem</div>
-        </div>
-        <div class="footer-3"></div>
-        
-
-    </div>
-
 </body>
 </html>

@@ -1,0 +1,10 @@
+@media (max-width: 500px) {
+    .navigation {
+        height: 250px;
+        flex-direction: column;
+    }
+    .navigation > a {
+        width: 50%;
+        height: 15%;
+    }
+}
