@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .left {
@@ -22,7 +23,9 @@
 
 .project-card {
     border-radius: 15px;
-    background: linear-gradient(to left ,rgb(82, 5, 189), rgb(111, 71, 167));
+    background: linear-gradient(to right ,rgb(20, 40, 226), rgb(146, 44, 167));
+    color: white;
+    
     margin-left: 5%;
     margin-right: 5%;
     padding: 20px;
@@ -32,6 +35,6 @@
     grid-template-columns: 50% 50%;
 }
 
-.project-card > div >img {
-    width: 100%;
+.card-text {
+    padding: 10%;
 }

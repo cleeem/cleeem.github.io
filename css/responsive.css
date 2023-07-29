@@ -21,6 +21,14 @@
     
     }
 
+    
+}
+
+@media (max-width: 750px) {
+    .center {
+        flex-direction: row;
+    }
+
     .project-card {
         display: flex !important;
         flex-direction: column-reverse !important;
